@@ -4,7 +4,7 @@
 **Lab Assignment:** 01 (from Unit - 1) — Foundations of AI in Cyber Security  
 **Student Name:** Rohit Raj  
 **University:** K.R. Mangalam University  
-**Faculty:** Dr. Amar Saraswat  
+**Faculty:** Monika Khatkar        
 **Date:** October 2026  
 **Artifacts Generated:** `reports/Technical_Report.pdf`, `src/cybersecurity_threat_detection.ipynb`, `results/`  
 
