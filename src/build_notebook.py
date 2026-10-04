@@ -18,7 +18,7 @@ cells.append(nbf.v4.new_markdown_cell("""# End-to-End Mini Project: Building an 
 **Lab Assignment:** 01 (Unit - 1) — Foundations of AI in Cyber Security  
 **Institution:** K.R. Mangalam University  
 **Student Name:** Rohit Raj  
-**Faculty:** Dr. Amar Saraswat  
+**Faculty:** Monika Khatkar  
 
 ---
 

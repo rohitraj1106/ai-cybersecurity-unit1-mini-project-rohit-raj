@@ -9,7 +9,7 @@
 **Lab Assignment:** 01 — Foundations of AI in Cyber Security  
 **Student Name:** Rohit Raj  
 **University:** K.R. Mangalam University  
-**Faculty:** Monika Khatkar         
+**Faculty:** Monika Khatkar  
 **Weightage:** 20% of Lab Assessment (100 Marks Rubric)  
 
 ---

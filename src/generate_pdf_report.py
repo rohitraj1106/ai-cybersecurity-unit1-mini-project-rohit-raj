@@ -187,7 +187,7 @@ def build_pdf():
         ],
         [
             Paragraph("<b>Weightage:</b> 20% of Lab Assessment", table_cell_style),
-            Paragraph("<b>Faculty:</b> Dr. Amar Saraswat", table_cell_style)
+            Paragraph("<b>Faculty:</b> Monika Khatkar", table_cell_style)
         ],
         [
             Paragraph("<b>Repository:</b> ai-cybersecurity-unit1-mini-project", table_cell_style),
