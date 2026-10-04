@@ -1,0 +1,290 @@
+{
+  "dataset": "UCI Phishing Websites (ID 327)",
+  "dataset_citation": "Mohammad, R. & McCluskey, L. (2012). Phishing Websites. UCI Machine Learning Repository. https://doi.org/10.24432/C51W2X",
+  "rows": 11055,
+  "raw_feature_count": 30,
+  "processed_feature_count": 30,
+  "missing_cells": 0,
+  "duplicate_rows": 5206,
+  "target_mapping": "Original label -1 mapped to phishing (1); +1 mapped to legitimate (0)",
+  "class_counts": {
+    "0": 6157,
+    "1": 4898
+  },
+  "train_rows": 8844,
+  "test_rows": 2211,
+  "random_state": 42,
+  "test_size": 0.2,
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9280868385345997,
+      "precision": 0.9343915343915344,
+      "recall": 0.9010204081632653,
+      "f1_score": 0.9174025974025974,
+      "roc_auc": 0.9785034566222915,
+      "training_time_seconds": 0.06128679995890707,
+      "confusion_matrix_labels": [
+        "legitimate(0)",
+        "phishing(1)"
+      ],
+      "confusion_matrix": [
+        [
+          1169,
+          62
+        ],
+        [
+          97,
+          883
+        ]
+      ],
+      "classification_report": {
+        "Legitimate": {
+          "precision": 0.9233807266982622,
+          "recall": 0.9496344435418359,
+          "f1-score": 0.9363235883059672,
+          "support": 1231.0
+        },
+        "Phishing": {
+          "precision": 0.9343915343915344,
+          "recall": 0.9010204081632653,
+          "f1-score": 0.9174025974025974,
+          "support": 980.0
+        },
+        "accuracy": 0.9280868385345997,
+        "macro avg": {
+          "precision": 0.9288861305448983,
+          "recall": 0.9253274258525506,
+          "f1-score": 0.9268630928542823,
+          "support": 2211.0
+        },
+        "weighted avg": {
+          "precision": 0.9282611389729826,
+          "recall": 0.9280868385345997,
+          "f1-score": 0.9279370794478476,
+          "support": 2211.0
+        }
+      },
+      "warnings": []
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9303482587064676,
+      "precision": 0.9248971193415638,
+      "recall": 0.9173469387755102,
+      "f1_score": 0.9211065573770492,
+      "roc_auc": 0.9814718413766806,
+      "training_time_seconds": 0.04829340003198013,
+      "confusion_matrix_labels": [
+        "legitimate(0)",
+        "phishing(1)"
+      ],
+      "confusion_matrix": [
+        [
+          1158,
+          73
+        ],
+        [
+          81,
+          899
+        ]
+      ],
+      "classification_report": {
+        "Legitimate": {
+          "precision": 0.9346246973365617,
+          "recall": 0.9406986190089358,
+          "f1-score": 0.9376518218623482,
+          "support": 1231.0
+        },
+        "Phishing": {
+          "precision": 0.9248971193415638,
+          "recall": 0.9173469387755102,
+          "f1-score": 0.9211065573770492,
+          "support": 980.0
+        },
+        "accuracy": 0.9303482587064676,
+        "macro avg": {
+          "precision": 0.9297609083390628,
+          "recall": 0.929022778892223,
+          "f1-score": 0.9293791896196987,
+          "support": 2211.0
+        },
+        "weighted avg": {
+          "precision": 0.9303130616807055,
+          "recall": 0.9303482587064676,
+          "f1-score": 0.9303183260705828,
+          "support": 2211.0
+        }
+      },
+      "warnings": []
+    },
+    {
+      "model": "MLP Neural Network",
+      "accuracy": 0.9656264133876075,
+      "precision": 0.9698544698544699,
+      "recall": 0.9520408163265306,
+      "f1_score": 0.96086508753862,
+      "roc_auc": 0.9944486811784015,
+      "training_time_seconds": 2.441598800010979,
+      "confusion_matrix_labels": [
+        "legitimate(0)",
+        "phishing(1)"
+      ],
+      "confusion_matrix": [
+        [
+          1202,
+          29
+        ],
+        [
+          47,
+          933
+        ]
+      ],
+      "classification_report": {
+        "Legitimate": {
+          "precision": 0.9623698959167334,
+          "recall": 0.9764419171405362,
+          "f1-score": 0.9693548387096774,
+          "support": 1231.0
+        },
+        "Phishing": {
+          "precision": 0.9698544698544699,
+          "recall": 0.9520408163265306,
+          "f1-score": 0.96086508753862,
+          "support": 980.0
+        },
+        "accuracy": 0.9656264133876075,
+        "macro avg": {
+          "precision": 0.9661121828856016,
+          "recall": 0.9642413667335334,
+          "f1-score": 0.9651099631241487,
+          "support": 2211.0
+        },
+        "weighted avg": {
+          "precision": 0.9656873461469377,
+          "recall": 0.9656264133876075,
+          "f1-score": 0.9655918553774132,
+          "support": 2211.0
+        }
+      },
+      "warnings": []
+    }
+  ],
+  "threshold_analysis": [
+    {
+      "threshold": 0.1,
+      "accuracy": 0.8616010854816825,
+      "precision": 0.7696,
+      "recall": 0.9816326530612245,
+      "f1_score": 0.862780269058296,
+      "false_positives_legitimate_flagged": 288,
+      "false_negatives_phishing_missed": 18,
+      "true_negatives": 943,
+      "true_positives": 962
+    },
+    {
+      "threshold": 0.2,
+      "accuracy": 0.900497512437811,
+      "precision": 0.8460837887067395,
+      "recall": 0.9479591836734694,
+      "f1_score": 0.8941289701636189,
+      "false_positives_legitimate_flagged": 169,
+      "false_negatives_phishing_missed": 51,
+      "true_negatives": 1062,
+      "true_positives": 929
+    },
+    {
+      "threshold": 0.3,
+      "accuracy": 0.9253731343283582,
+      "precision": 0.8983382209188661,
+      "recall": 0.9377551020408164,
+      "f1_score": 0.9176235646530204,
+      "false_positives_legitimate_flagged": 104,
+      "false_negatives_phishing_missed": 61,
+      "true_negatives": 1127,
+      "true_positives": 919
+    },
+    {
+      "threshold": 0.4,
+      "accuracy": 0.9308005427408412,
+      "precision": 0.9223697650663942,
+      "recall": 0.9214285714285714,
+      "f1_score": 0.9218989280245024,
+      "false_positives_legitimate_flagged": 76,
+      "false_negatives_phishing_missed": 77,
+      "true_negatives": 1155,
+      "true_positives": 903
+    },
+    {
+      "threshold": 0.5,
+      "accuracy": 0.9280868385345997,
+      "precision": 0.9343915343915344,
+      "recall": 0.9010204081632653,
+      "f1_score": 0.9174025974025974,
+      "false_positives_legitimate_flagged": 62,
+      "false_negatives_phishing_missed": 97,
+      "true_negatives": 1169,
+      "true_positives": 883
+    },
+    {
+      "threshold": 0.6,
+      "accuracy": 0.9271822704658526,
+      "precision": 0.9475409836065574,
+      "recall": 0.8846938775510204,
+      "f1_score": 0.9150395778364117,
+      "false_positives_legitimate_flagged": 48,
+      "false_negatives_phishing_missed": 113,
+      "true_negatives": 1183,
+      "true_positives": 867
+    },
+    {
+      "threshold": 0.7,
+      "accuracy": 0.9199457259158752,
+      "precision": 0.9557321225879682,
+      "recall": 0.8591836734693877,
+      "f1_score": 0.9048898441698012,
+      "false_positives_legitimate_flagged": 39,
+      "false_negatives_phishing_missed": 138,
+      "true_negatives": 1192,
+      "true_positives": 842
+    },
+    {
+      "threshold": 0.8,
+      "accuracy": 0.9104477611940298,
+      "precision": 0.9699519230769231,
+      "recall": 0.823469387755102,
+      "f1_score": 0.890728476821192,
+      "false_positives_legitimate_flagged": 25,
+      "false_negatives_phishing_missed": 173,
+      "true_negatives": 1206,
+      "true_positives": 807
+    },
+    {
+      "threshold": 0.9,
+      "accuracy": 0.8801447308909995,
+      "precision": 0.9824561403508771,
+      "recall": 0.7428571428571429,
+      "f1_score": 0.8460197559558397,
+      "false_positives_legitimate_flagged": 13,
+      "false_negatives_phishing_missed": 252,
+      "true_negatives": 1218,
+      "true_positives": 728
+    }
+  ],
+  "proxy_group_analysis": {
+    "note": "Exploratory proxy group only; not a protected attribute or a fairness certification.",
+    "feature": "having_ip_address",
+    "group_metrics": {
+      "-1": {
+        "count": 785,
+        "accuracy": 0.9426751592356688,
+        "phishing_recall": 0.924812030075188
+      },
+      "1": {
+        "count": 1426,
+        "accuracy": 0.9200561009817672,
+        "phishing_recall": 0.8846815834767642
+      }
+    }
+  }
+}
