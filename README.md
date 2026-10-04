@@ -6,10 +6,10 @@
 [![ReportLab](https://img.shields.io/badge/ReportLab-PDF-red.svg)](https://www.reportlab.com/)
 
 **Course:** AI in Cyber Security Lab (ENSP355)  
-**Lab Assignment:** 01 (from Unit - 1) — Foundations of AI in Cyber Security  
+**Lab Assignment:** 01 — Foundations of AI in Cyber Security  
 **Student Name:** Rohit Raj  
 **University:** K.R. Mangalam University  
-**Faculty:** Dr. Amar Saraswat  
+**Faculty:** Monika Khatkar 
 **Weightage:** 20% of Lab Assessment (100 Marks Rubric)  
 
 ---
