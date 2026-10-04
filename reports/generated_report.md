@@ -27,9 +27,9 @@ Phishing websites imitate legitimate services to trick users into revealing cred
 ## 5. Model Results
 | Model | Accuracy | Precision | Recall | F1-score | ROC-AUC | Training time (s) |
 |---|---:|---:|---:|---:|---:|---:|
-| Logistic Regression | 0.9281 | 0.9344 | 0.9010 | 0.9174 | 0.9785 | 0.0613 |
-| Decision Tree | 0.9303 | 0.9249 | 0.9173 | 0.9211 | 0.9815 | 0.0483 |
-| MLP Neural Network | 0.9656 | 0.9699 | 0.9520 | 0.9609 | 0.9944 | 2.4416 |
+| Logistic Regression | 0.9281 | 0.9344 | 0.9010 | 0.9174 | 0.9785 | 0.0605 |
+| Decision Tree | 0.9303 | 0.9249 | 0.9173 | 0.9211 | 0.9815 | 0.0510 |
+| MLP Neural Network | 0.9656 | 0.9699 | 0.9520 | 0.9609 | 0.9944 | 2.3806 |
 
 ### Confusion matrices & Performance Charts
 - Logistic Regression: `results/confusion_matrix_logistic_regression.png`
